@@ -2,7 +2,7 @@
 'use client'
 
 export default function Home() {
-  // Ejercicio 1 – Lista de productos con categorias
+ 
   const productos = [
     { id: 1, nombre: "Camisetaa", precio: 25, categoria: { id: 1, nombre: "Ropa" } },
     { id: 2, nombre: "Zapatos deportivos", precio: 60, categoria: { id: 2, nombre: "Calzado" } },
@@ -11,7 +11,7 @@ export default function Home() {
     { id: 5, nombre: "Bolso", precio: 30, categoria: { id: 3, nombre: "Accesorios" } },
   ];
 
-  // Ejercicio 2 – Lista de usuarios con direcciones
+
   const usuarios = [
     { id: 1, nombre: "Ana", direccion: { calle: "Calle 10", ciudad: "Bogotá", pais: "Colombia" } },
     { id: 2, nombre: "Luis", direccion: { calle: "Av. Reforma", ciudad: "Ciudad de México", pais: "México" } },
@@ -20,7 +20,7 @@ export default function Home() {
     { id: 5, nombre: "Pedro", direccion: { calle: "Rua Augusta", ciudad: "Lisboa", pais: "Portugal" } },
   ];
 
-  // Ejercicio 3 – Lista de cursos con modulos
+
   const cursos = [
     { id: 1, nombre: "React", modulos: [{ nombre: "Componentes" }, { nombre: "Hooks" }] },
     { id: 2, nombre: "Next.js", modulos: [{ nombre: "SSR" }, { nombre: "Static Props" }] },
@@ -29,7 +29,7 @@ export default function Home() {
     { id: 5, nombre: "Flutter", modulos: [{ nombre: "Widgets" }, { nombre: "State Management" }] },
   ];
 
-  // Ejercicio 4 – Lista de pedidos con productos
+
   const pedidos = [
     { id: 1, cliente: "Ana", productos: [{ nombre: "Camiseta", cantidad: 2 }, { nombre: "Gorra", cantidad: 1 }] },
     { id: 2, cliente: "Luis", productos: [{ nombre: "Zapatos", cantidad: 1 }, { nombre: "Bolso", cantidad: 2 }] },
@@ -38,7 +38,7 @@ export default function Home() {
     { id: 5, cliente: "Pedro", productos: [{ nombre: "Camiseta", cantidad: 5 }] },
   ];
 
-  // Ejercicio 5 – Lista de blogs con estructura anidada
+
   const blogs = [
     {
       id: 1,
